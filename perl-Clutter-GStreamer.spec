@@ -1,7 +1,6 @@
 #
 # TODO:
 # - Update source and url when approved on CPAN
-#
 
 %bcond_without	tests		# do not perform "make test"
 %include	/usr/lib/rpm/macros.perl
@@ -20,13 +19,18 @@ Source0:	https://launchpad.net/~chris-debenham/+archive/lyricue/+files/libclutte
 # Source0-md5:	b5aee73b996a5abe0c601aee06708722
 URL:		http://www.clutter-project.org/
 BuildRequires:	clutter-gst-devel
+BuildRequires:	perl-Clutter
+BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
+%if %{with tests}
 BuildRequires:	perl-Cairo >= 1.000
 BuildRequires:	perl-ExtUtils-Depends >= 0.300
 BuildRequires:	perl-ExtUtils-PkgConfig
 BuildRequires:	perl-Glib >= 1.220
 BuildRequires:	perl-Pango >= 1.140
-BuildRequires:	perl-devel >= 1:5.8.0
-BuildRequires:	rpm-perlprov >= 4.1-13
+%endif
+Requires:	clutter-gst
+Requires:	perl-Clutter
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
