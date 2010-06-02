@@ -15,7 +15,7 @@ Version:	%{ver}.%{rel}
 Release:	1
 License:	perl, lgpl
 Group:		Development/Languages/Perl
-Source0:	https://launchpad.net/~chris-debenham/+archive/lyricue/+files/libclutter-gstreamer-perl_%{ver}-%{rel}.tar.gz
+Source0:	http://www.lyricue.org/archive/libclutter-gstreamer-perl_%{ver}-%{rel}.tar.gz
 # Source0-md5:	b5aee73b996a5abe0c601aee06708722
 URL:		http://www.clutter-project.org/
 BuildRequires:	clutter-gst-devel
