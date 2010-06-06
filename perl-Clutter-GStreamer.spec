@@ -8,7 +8,7 @@
 %define	pdir	Clutter
 %define pnam	GStreamer
 %define ver	0.100
-%define rel	4
+%define rel	5
 Summary:	Integration between GStreamer and Clutter
 Name:		perl-Clutter-GStreamer
 Version:	%{ver}.%{rel}
