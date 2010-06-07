@@ -8,11 +8,11 @@
 %define	pdir	Clutter
 %define pnam	GStreamer
 %define ver	0.100
-%define rel	5
+%define rel	4
 Summary:	Integration between GStreamer and Clutter
 Name:		perl-Clutter-GStreamer
 Version:	%{ver}.%{rel}
-Release:	1
+Release:	2
 License:	perl, lgpl
 Group:		Development/Languages/Perl
 Source0:	http://www.lyricue.org/archive/libclutter-gstreamer-perl_%{ver}-%{rel}.tar.gz
