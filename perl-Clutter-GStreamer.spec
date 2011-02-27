@@ -12,7 +12,7 @@
 Summary:	Integration between GStreamer and Clutter
 Name:		perl-Clutter-GStreamer
 Version:	%{ver}.%{subver}
-Release:	2
+Release:	3
 License:	perl, lgpl
 Group:		Development/Languages/Perl
 Source0:	http://www.lyricue.org/archive/libclutter-gstreamer-perl_%{ver}-%{subver}.tar.gz
