@@ -42,6 +42,7 @@ applications.
 
 %prep
 %setup -q -n %{name}
+sed -i -e 's#clutter-gst-0.10#clutter-gst-1.0#g' Makefile.PL
 
 %build
 %{__perl} Makefile.PL \
