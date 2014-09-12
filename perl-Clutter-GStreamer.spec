@@ -71,6 +71,5 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorarch}/%{pdir}/%{pnam}/*.pod
 %{perl_vendorarch}/%{pdir}/%{pnam}/Install
 %dir %{perl_vendorarch}/auto/%{pdir}/%{pnam}
-%{perl_vendorarch}/auto/%{pdir}/%{pnam}/*.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/%{pdir}/%{pnam}/*.so
 %{_mandir}/man3/*
