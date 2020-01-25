@@ -3,7 +3,6 @@
 # - Update source and url when approved on CPAN
 
 %bcond_without	tests		# do not perform "make test"
-%include	/usr/lib/rpm/macros.perl
 
 %define	pdir	Clutter
 %define pnam	GStreamer
